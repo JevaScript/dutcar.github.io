@@ -1,0 +1,568 @@
+
+
+body,html
+{
+    padding: 0; margin: 0;
+}
+
+#jours
+{
+    color: #ffffff;
+    background: black;
+    outline: white;
+}
+
+.reponse
+{
+    border: 1px solid transparent;
+    width: 45%;
+    height: 372px;
+    margin-left: 200px;
+    margin-top: 30px;
+    border-radius: 8px;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+    
+    
+}
+
+.commande
+{
+    color: #ffffff;
+    width: 40%;
+    height: 30px;
+    border: 1px solid transparent;
+    background: black;
+    border-radius:0px 6px 6px 0px;
+    padding-top: 10px;
+    display: none;
+    cursor: pointer;
+    text-align: center;
+    transition: all 0.4s ease-in-out;
+    
+}
+
+
+
+.show
+{
+    display: block;
+}
+
+
+
+
+
+.order
+{
+    position: absolute;
+    width: 75%;
+    height: 30px;
+    margin-top: 220px;
+}
+
+.ref
+{
+    color: #ffffff;
+    font-family: 'Roboto';
+    width: 35%;
+    float: right;
+    margin-right: -400px;
+    display: block;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+    
+    
+    
+    
+}
+
+.coloris
+{
+    color: #ffffff;
+    font-family: 'Roboto';
+    width: 35%;
+    float: right;
+    margin-right: -400px;
+    display: block;
+    margin-top: 150px;
+
+
+}
+
+
+
+.red
+{
+    color: red;
+}
+.green
+{
+    color: green;
+}
+
+.date
+{
+    height: 150px;
+    width: 100%;
+    line-height: 150px;
+    background: url('cars-at-sunset-1.jpg'); 
+    background-position: center;
+
+
+}
+
+#recherche
+{
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.choix
+{
+    height: 600px;
+    width: 100%;
+    background: black;
+    float: left;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.6s ease-in-out;
+    background-image: url('Morten-Zoffmann-Audi_800.jpg');
+    
+    
+    
+}
+
+.titrejour
+{
+    color: #ffffff;
+}
+
+.plus
+{  
+    
+    border: 1px dotted black;
+    width: 3px;
+    height: 3px;
+    background-color: white;
+    box-sizing: border-box;
+    transform: scale(6);
+    cursor: pointer;
+    margin-top: 35px;
+    transition: all 0.6s ease-in-out;
+    position: absolute;
+    
+    
+    
+    
+}
+
+.rotation
+{
+    transform: rotate(90deg) scale(6);
+    
+
+}
+
+.deploy
+{
+    background: black;
+    height: 80px;
+    line-height: 80px;
+    width: 100%;
+    float: left;
+    display: flex;
+
+    
+}
+
+.description
+{
+    color: #ffffff;
+    float: right;
+    text-align: center;
+    line-height: 30px;
+}
+
+
+
+
+.jaune
+{
+    color: rgb(255, 174, 0);
+}
+
+.fa-star
+{
+    color: black;
+}
+
+.administratif
+{
+    height: 350px;
+    width: 100%;
+    background: url('Untitled_1.2.7.jpg');
+    background-position: bottom;
+    background-size: cover;
+    float: left;
+   
+    
+}
+
+.publicité
+{
+    height: 350px;
+    width: 60%;
+    cursor: pointer;
+
+}
+
+.devis
+{
+    width: 40%;
+    float: right;
+    margin-top: -200px;
+}
+
+.demande
+{
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.speech
+{
+    color: #ffffff;
+    display: none;
+}
+
+.demande:hover
+{
+    background: orange;
+}
+
+
+#Capa_1
+{
+    fill: #ffffff;
+    margin: 0 100px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    
+}
+#Capa_2
+{
+    fill: #ffffff;
+    margin: 0 100px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    
+}
+#Capa_3
+{
+    fill: #ffffff;
+    margin: 0 100px;
+    transition: all 0.4s ease-in-out;
+    cursor: pointer;
+    
+}
+
+#Capa_1:hover
+{
+    fill: orange;
+}
+#Capa_2:hover
+{
+    fill: orange;
+}
+#Capa_3:hover
+{
+    fill: orange;
+}
+
+
+.listmarque
+{
+    color: white;
+    list-style: none;
+}
+
+#menucar1
+{
+    
+    margin-top: -100px;
+    
+
+}
+#menucar2
+{
+    
+    margin-top: -100px;
+    margin-left: 260px;
+    
+
+}
+#menucar3
+{
+    
+    margin-top: -100px;
+    margin-left: 260px;
+    
+    
+
+}
+
+.deroulant1
+{
+    display: none;
+    position: absolute;
+}
+
+.deroulant2
+{
+    display: none;
+    position: absolute;
+}
+
+.deroulant3
+{
+    display: none;
+    position: absolute;
+}
+
+
+
+.show
+{
+    display: block;
+}
+
+.go
+{
+    display: none;
+}
+
+.listcar
+{
+    margin-left: 220px ;
+}
+
+.end
+{
+    height: 300px;
+    width: 100%;
+    background: black;
+    float: left;
+}
+
+.fin
+{
+    color: #ffffff;
+    list-style: none;
+    padding-top: 40px;
+    font-family: 'Roboto';
+}
+
+.choixcaisse
+{
+    transition: all 0.3s ease-in-out;
+
+}
+
+.choixcaisse:hover 
+{
+    color: orange;
+}
+
+.listmarque
+{
+    transition: all 0.3s ease-in-out;
+}
+
+#devis-arrow
+{
+    height: 80%;
+    width: 80%;
+    margin-left: -460px;
+    margin-top: -125px;
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.6s ease-in-out;
+    animation: longueur 2s;
+}
+
+@keyframes longueur 
+{
+    0%
+    {
+        width: 50%;
+    }
+
+    100%
+    {
+        width: 80%;
+    }
+}
+
+
+
+.container-devis
+{
+    margin: auto;
+    width: 80%;
+}
+
+.speech
+{
+    margin-top: -40px;
+}
+
+.pagedevis
+{
+    height: 500px;
+    width: 100%;
+    background: black;
+    padding-top: 40px;
+    
+}
+
+#nom
+{
+    padding: 10px;
+    
+}
+#prenom
+{
+    padding: 10px;
+}
+
+#pays
+{
+    outline: none;
+    padding: 10px ;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.fin
+{
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.fin:hover 
+{
+    color: orange;
+}
+
+.choixcaisse
+{
+    cursor: pointer;
+}
+
+.graph1
+{
+    height: 15px;
+    width: 10%;
+    background: white;
+    transition: width 0.8s ease-in-out;
+    border-radius: 5px;
+    
+    
+}
+
+
+
+.graph2
+{
+    height: 15px;
+    width: 10%;
+    background: white;
+    transition: width 0.8s ease-in-out;
+    border-radius: 5px;
+}
+.graph3
+{
+    height: 15px;
+    width: 10%;
+    background: white;
+    transition: width 0.8s ease-in-out;
+    border-radius: 5px;
+    
+}
+.graph4
+{
+    height: 15px;
+    width: 10%;
+    background: white;
+    transition: width 0.8s ease-in-out;
+    border-radius: 5px;
+    
+}
+.graph5
+{
+    height: 15px;
+    width: 10%;
+    background: white;
+    transition: width 0.3s ease-in-out;
+    border-radius: 5px;
+    
+}
+.graph6
+{
+    height: 15px;
+    width: 10%;
+    background: white;
+    transition: width 0.8s ease-in-out;
+    border-radius: 5px;
+    
+}
+
+#bars 
+{
+    margin-top: 10px;
+}
+
+button
+{
+    margin-top: 20px;
+}
+
+
+.stat
+{
+    height: 300px;
+    width: 100%;
+    background: black;
+    float: left;
+}
+
+.years
+{
+    list-style: none;
+
+}
+
+.containerstat
+{
+    width: 20%;
+    margin: auto;
+    margin-top: 40px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    padding: 10px 10px 10px 10px;
+
+
+}
+

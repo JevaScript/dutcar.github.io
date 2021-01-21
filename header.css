@@ -1,0 +1,68 @@
+.menu
+{
+    height: 70px;
+    line-height: 70px;
+    background: black;
+    width: 100%;
+    
+}
+
+.container
+{
+    margin: auto;
+    width: 80%;
+}
+
+.m-left
+{
+    float: left;
+
+    
+    
+    
+    
+}
+
+.logo
+{
+    color: #ffffff;
+    font-family: 'THORN';
+    padding: 0; margin: 0;
+    
+
+    
+    
+}
+
+.m-right
+{
+    float: right;
+}
+
+.compte
+{
+    color: #ffffff;
+    font-family: 'Roboto';
+    line-height: 35px;
+    display: inline-flex;
+    margin: 0 26px;
+
+}
+.panier
+{
+    color: #ffffff;
+    font-family: 'Roboto';
+    line-height: 35px;
+
+}
+
+
+
+@media only screen and (max-width: 800px)
+{
+    .m-left
+    {
+        float: left;
+        margin-left: 0px;
+    }
+}
